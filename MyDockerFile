@@ -1,0 +1,3 @@
+FROM registry.dev.sansar.io/debian
+ADD * /
+ENTRYPOINT ["/bin/cat", "/test.txt"]
